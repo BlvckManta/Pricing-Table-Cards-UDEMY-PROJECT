@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table Cards UDEMY PROJECT</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sono:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+
+*{
+    font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 1;
+}
+
+
+.container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+
+.cards{
+
+    width: 300px;
+    height: 300px;
+    background-color: #EEEEEE;
+    box-shadow: 10px 10px 10px grey ;
+    border-radius: 30px;
+}
+
+
+li{
+   list-style: none; 
+}
+
+.h3{
+    font-size: 200%;
+}
+
+button{
+    background-color: #ff6600;
+    border-radius: 5px;
+    height: 35px;
+    padding: 10px;
+    border-color: #ff6600;
+    color: white;
+    box-shadow: 3px 3px grey;
+    
+}
+
+.plans{
+font-size: larger;
+}
+
+
+
+
+@media(max-width: 700px){
+
+    .container{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    
+    margin-top: 0px;
+    height: 100%;
+align-items: center;
+}
+ 
+}
+    </style>
+</head>
+<body>
+    
+<div class="container">
+    <div class="cards">
+        <div class="text">
+            <center>
+      <div class="plans">basic</div>
+             <br>
+      <div class="h3">$11.99/month</div>
+             <br>
+       <li>✅10Gb Storage</li>
+             <br>
+       <li>✅1 User</li>
+             <br>
+       <li>🚫No Support</li>
+             <br>
+       <button>Sign Up</button>
+            </center>
+        </div>
+    </div>
+
+
+    <div class="cards">
+        <div class="text">
+            <center>
+        <div class="plans">standard</div>
+            <br>
+        <div class="h3">$19.99/month</div>
+            <br>
+         <li>✅50Gb Storage</li>
+             <br>
+         <li>✅5 Users</li>
+             <br>
+         <li>✅Phone & Email Support</li>
+             <br>
+         <button>Sign Up</button>
+            </center>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="text">
+            <center>
+        <div class="plans">premium</div>
+            <br>
+        <div class="h3">$49.99/month</div>
+            <br>
+         <li>✅100Gb Storage</li>
+             <br>
+         <li>✅10 Users</li>
+             <br>
+         <li>✅Unlimited 24/7 Support</li>
+             <br>
+         <button>Sign Up</button>
+            </center>
+        </div>
+      </div>
+  
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
